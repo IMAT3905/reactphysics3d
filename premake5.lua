@@ -35,15 +35,12 @@ project "ReactPhysics3d"
 		
 	 filter { "system:windows", "configurations:Debug" }
 		
-		defines 
-		{
-			"DEBUG"
-		}
+		defines "DEBUG"
+		runtime "Debug"
+		symbols "On"
 		
     filter { "system:windows", "configurations:Release" }
-      
-		
-		defines 
-		{
-			"NDEBUG"
-		}
+		defines "NDEBUG"
+		runtime "Release"
+		optimize "On"
+
