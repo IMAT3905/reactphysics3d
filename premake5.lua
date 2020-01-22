@@ -1,13 +1,3 @@
-workspace "temp"
-	architecture "x64"
-	startproject "ReactPhysics3d"
-
-	configurations
-	{
-		"Debug",
-		"Release"
-	}
-	outputdir = "%{cfg.buildcfg}-%{cfg.system}"
 project "ReactPhysics3d"
     kind "StaticLib"
     language "C++"
