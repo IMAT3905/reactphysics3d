@@ -9,21 +9,21 @@ project "ReactPhysics3d"
 
 	files
 	{
-        "src/**.h",
+        "include/**.h",
 		"src/**.cpp"
     }
 	
 	includedirs
 	{
-		"src",
-		"src/body",
-		"src/collision",
-		"src/constraint",
-		"src/containers",
-		"src/engine",
-		"src./mathematics",
-		"src/memory",
-		"src/utils"
+		"include",
+		"include/body",
+		"include/collision",
+		"include/constraint",
+		"include/containers",
+		"include/engine",
+		"include/mathematics",
+		"include/memory",
+		"include/utils"
 	} 
     
 	filter "system:windows"
