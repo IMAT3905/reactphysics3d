@@ -4,8 +4,8 @@ project "ReactPhysics3d"
     staticruntime "off"
 	systemversion "latest"
     
-	targetdir ("bin/" .. outputdir .. "/%{prj.name}")
-    objdir ("build/" .. outputdir .. "/%{prj.name}")
+	targetdir ("../../bin/" .. outputdir .. "/%{prj.name}")
+	objdir ("../../build/" .. outputdir .. "/%{prj.name}")
 
 	files
 	{
